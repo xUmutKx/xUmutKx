@@ -21,6 +21,30 @@
 </picture>
 </p>
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=xUmutKx&theme=dark&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-[![UmutK's github stats](https://github-readme-stats.vercel.app/api?username=xUmutKx&theme=dark&show_icons=true)](https://github.com/anuraghazra/github-readme-stats)
-[![UmutK's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=xUmutKx&bg_color=151515)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-summary-dark.svg">
+  <img src="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-summary-light.svg" width="400" alt="Summary">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-languages-dark.svg">
+  <img src="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-languages-light.svg" width="400" alt="Languages">
+</picture>
+</p>
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-contributions-dark.svg">
+  <img src="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-contributions-light.svg" width="400" alt="Contributions">
+</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-weekly-dark.svg">
+  <img src="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-weekly-light.svg" width="400" alt="Weekly">
+</picture>
+</p>
+
+<p align="center">
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xUmutKx/xUmutKx/snake/snake-dark.svg">
+  <img src="https://raw.githubusercontent.com/xUmutKx/xUmutKx/snake/snake.svg" alt="Contribution snake">
+</picture>
+</p>

@@ -19,6 +19,12 @@ jobs:
         with:
           token: ${{ secrets.CARDS_TOKEN }}
           output: ${{ runner.temp }}/cards
+      # the same numbers drawn as pinball dot-matrix displays: a second set of cards
+      - uses: pedrocatalao/github-cool-readme@v1
+        with:
+          token: ${{ secrets.CARDS_TOKEN }}
+          config: cool-readme.oled.yml
+          output: ${{ runner.temp }}/oled
       # The cards live on their own branch, as a single commit replaced on each change, so they
       # don't add to the history of your main branch.
       - name: Publish the cards on the cards branch
@@ -26,6 +32,7 @@ jobs:
           git fetch --quiet --depth 1 origin cards:refs/remotes/origin/cards 2>/dev/null || true # not there on the first run
           git switch --quiet --orphan cards
           cp "$RUNNER_TEMP"/cards/*.svg .
+          for f in "$RUNNER_TEMP"/oled/*.svg; do cp "$f" "oled-$(basename "$f")"; done
           git add -- *.svg
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
@@ -35,3 +42,24 @@ jobs:
             exit 0
           fi
           git push --force origin cards
+
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: xUmutKx
+          outputs: |
+            ${{ runner.temp }}/snake/snake.svg?palette=github-light
+            ${{ runner.temp }}/snake/snake-dark.svg?palette=github-dark
+      - name: Publish the snake on the snake branch
+        run: |
+          git switch --quiet --orphan snake
+          cp "$RUNNER_TEMP"/snake/*.svg .
+          git add -- *.svg
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit --quiet -m 'Update snake'
+          git push --force origin snake
