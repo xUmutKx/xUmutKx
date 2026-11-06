@@ -1,4 +1,13 @@
-### Hi there 👋
+### Hi, I'm Umut 👋
+
+I make Android apps. My main project is **[Pulse](https://github.com/xUmutKx/Pulse)**, an all-in-one toolbox for Android in the look of Windows or Material: task manager, launcher, keyboard, music player, files, vault and more. Free and open source.
+
+<p>
+<a href="https://github.com/xUmutKx/Pulse"><img alt="Pulse" src="https://img.shields.io/badge/Pulse-all--in--one%20toolbox-0067c0?style=flat&logo=android&logoColor=white"></a>
+<img alt="Kotlin" src="https://img.shields.io/badge/Kotlin-7F52B5?style=flat&logo=kotlin&logoColor=white">
+<img alt="Jetpack Compose" src="https://img.shields.io/badge/Jetpack%20Compose-4285F4?style=flat&logo=jetpackcompose&logoColor=white">
+<img alt="Android" src="https://img.shields.io/badge/Android-3DDC84?style=flat&logo=android&logoColor=white">
+</p>
 
 <p align="center">
 <picture>
@@ -18,27 +27,6 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/weekly-dark.svg">
   <img src="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/weekly-light.svg" width="350" alt="Weekly rhythm">
-</picture>
-</p>
-
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-summary-dark.svg">
-  <img src="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-summary-light.svg" width="400" alt="Summary">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-languages-dark.svg">
-  <img src="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-languages-light.svg" width="400" alt="Languages">
-</picture>
-</p>
-<p align="center">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-contributions-dark.svg">
-  <img src="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-contributions-light.svg" width="400" alt="Contributions">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-weekly-dark.svg">
-  <img src="https://raw.githubusercontent.com/xUmutKx/xUmutKx/cards/oled-weekly-light.svg" width="400" alt="Weekly">
 </picture>
 </p>
 
