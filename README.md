@@ -1,6 +1,6 @@
-### Hi, I'm Umut 👋
+### Hi.
 
-I make Android apps. My main project is **[Pulse](https://github.com/xUmutKx/Pulse)**, an all-in-one toolbox for Android in the look of Windows or Material: task manager, launcher, keyboard, music player, files, vault and more. Free and open source.
+I do stuff.
 
 <p>
 <a href="https://github.com/xUmutKx/Pulse"><img alt="Pulse" src="https://img.shields.io/badge/Pulse-all--in--one%20toolbox-0067c0?style=flat&logo=android&logoColor=white"></a>
